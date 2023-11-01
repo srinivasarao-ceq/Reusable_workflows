@@ -1,6 +1,7 @@
 name: Terraform Workflow
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       runs-on:
