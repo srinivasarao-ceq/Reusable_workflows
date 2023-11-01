@@ -13,11 +13,11 @@ on:
         type: string
         default: ap-southeast-1
       
-    secrets: 
-      aws-access-key-id:
-        required: true
-      aws-secret-access-key:
-        required: true
+    # secrets: 
+      # aws-access-key-id:
+      #   required: true
+      # aws-secret-access-key:
+      #   required: true
 
 jobs:
   terraform:
