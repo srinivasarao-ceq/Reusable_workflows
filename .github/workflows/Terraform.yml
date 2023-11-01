@@ -2,6 +2,15 @@ name: Terraform Workflow
 
 on:
   workflow_dispatch:
+    inputs:
+      runs-on:
+        description: The Platform to execute on
+        type: string
+        default: ubuntu-latest
+      region:
+        description: Enter the region
+        type: string
+        default: ap-southeast-1
   workflow_call:
     inputs:
       runs-on:
